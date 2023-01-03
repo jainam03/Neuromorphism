@@ -76,7 +76,7 @@ body {
     position: absolute;
     width: 8px;
     height: 80px;
-    background: #72b5dc;
+    background: #8bdbf9;
     z-index: 10;
     border-radius: 6px 6px 0 0;
 }
@@ -96,7 +96,7 @@ body {
     position: absolute;
     width: 2px;
     height: 150px;
-    background: #fff;
+    background: #00ff16;
     z-index: 12;
     border-radius: 6px 6px 0 0;
 }
@@ -115,6 +115,8 @@ span {
     text-align: center;
 }
 
+
+
 #git-icon {
     border-radius: 60px;
 
@@ -125,8 +127,12 @@ span {
 
 #git-icon:hover {
     transform: translateY(-3px);
+
+    width: 50px;
 }
 
 #git-icon:active {
     transform: translateY(4px);
+
+    width: 40px;
 }
